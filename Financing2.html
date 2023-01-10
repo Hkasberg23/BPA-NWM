@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Build a Survey Form using HTML and CSS
+    </title>
+ 
+    <style>
+		.secondary_header {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #B3B3B3;
+    clear: left;
+    border-radius: 25px;
+}
+.container .secondary_header ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 16%;
+	transition: all 0.3s linear;
+}
+.secondary_header ul li:hover {
+	color: #717070;
+	cursor: pointer;
+}
+ 
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color: grey;
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+    background-color: #717070;
+    border: 1px solid #717070;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+        }
+		.button {
+        background-color: #662F2F;
+        border: none;
+        color: white;
+        padding: 2px 26px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    a:link {
+    color: White;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: White;
+}
+a:hover {
+    text-decoration: none;
+    color: #979797;
+}
+a:active {
+    text-decoration: none;
+    color: White;
+    border-radius: 25px;
+    width: Auto;
+    left: 0px;
+    padding-left: 0px;
+    margin-left: 1px;
+    margin-right: 0px;
+    background-image: url(url);
+}
+		.left_article {
+	background-color: #FFFFFF;
+	width: 60%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #343434;
+	padding-bottom: 15px;
+}
+    </style>
+</head>
+  
+<body>
+	<nav class="secondary_header" id="menu"><img src="../../Documents/Unnamed Site 2/Black Gold Rustic Artisinal Outdoor Graduation Banner (1).png" width="1300" height="200" alt=""/>
+      <ul>
+        <li class="button"><a href="Listings1.html">CARS</a></li>
+        <li class="button"><a href="Service1.html">FINANCING</a></li>
+        <li class="button"><a href="Financing1.html">TRADE-INS</a></li>
+        <li class="button"><a href="Tradein1.html">ABOUT US</a></li>
+        <li class="button">CONTACT</li>
+      </ul>
+    </nav>
+	<h3><strong>Service Questionare</strong></h3>
+
+<!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+              First and Last Name
+          </label>
+ 
+            <!-- Input Type Text -->
+          <input type="text"
+                   id="name"
+                   placeholder="Enter your First and Last Name">
+      </div>
+  
+        <div class="form-control">
+            <label for="Last Name" id="label-Last Name">
+          Email 
+			</label>
+ 
+            <!-- Input Type Email-->
+            <input type="Last Name"
+                   id="Last Name"
+                   placeholder="Enter your Email" />
+      </div>
+  
+        <div class="form-control">
+            <label for="Email" id="label-Email">
+              Year/Make/Model of Vehicle
+          </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="Email"
+                   placeholder="Year/Make/Model" />
+      </div>
+		<div class="form-control">
+          <label for="Email" id="Date_1">
+              What Day are You Available for Service?
+          </label>
+ 
+            <!-- Input Type Text -->
+          <input type="text"
+                   id="Date"
+                   placeholder="mm/dd/yyyy" />
+      </div>
+ 
+  
+        <div class="form-control">
+            <label for="comment">
+          Please Describe Why Your Vehicle Needs Service&nbsp; </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <div class="form-control">
+            <label>How Did You Hear About Us?&nbsp;
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">TV Ad</label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Bilboard</label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Friend/Family</label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Website</label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Letter in the Mail</label>
+            <label for="inp-6">
+              <input type="checkbox"
+                       name="inp">Email Ad</label>
+            <label for="inp-7">
+                
+          <input type="checkbox"
+                       name="inp">
+          Other
+          </label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+          Anything Else You Would Like Us To Know&nbsp;&nbsp; </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment1"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button value="submit" type="submit" class="button">
+            <a href="Thankyou1.html">Submit</a>
+        
+    </button>
+    </form>
+</body>
+  
+</html>
