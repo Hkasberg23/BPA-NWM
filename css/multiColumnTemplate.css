@@ -226,8 +226,8 @@
     text-align: center;
     color: #FFFFFF;
     letter-spacing: 2px;
-    width: 1300px;
-    height: 163px;
+    width: auto;
+    height: auto;
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
