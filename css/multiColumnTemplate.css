@@ -226,12 +226,13 @@
     text-align: center;
     color: #FFFFFF;
     letter-spacing: 2px;
-    width: 100%;
+    width: 1300px;
     height: 163px;
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
-    margin-left: 200px;
+    margin-left: auto;
+	margin-right: auto;
     padding-left: 0px;
     background-position: 0 0%;
 }
