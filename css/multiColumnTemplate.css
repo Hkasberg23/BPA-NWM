@@ -98,7 +98,8 @@
     text-shadow: 0px 0px #565656;
     border-color: #532626;
     border-radius: 25px;
-	text-align: center;
+	display: flex;
+	flex-direction: row;
 }
 .secondary_header-2 {
     width: 100%;
